@@ -1,0 +1,4 @@
+Esta es una linea corta.
+Esta es una linea muy larga que supera los 20 caracteres fácilmente con palabras adicionales para probar el filtro.
+Otra línea corta de solo 10 caracteres.
+Línea intermedia con exactamente 21 caracteres: prueba de borde.
