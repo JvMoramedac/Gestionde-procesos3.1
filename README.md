@@ -112,7 +112,7 @@ vbnet
 Copiar código
 Entrada: "Hola mundo desde Java"
 Salida: Número total de palabras: 4
-![Ejemplo](ACFF39A7-5FBE-431D-BAE7-99007C44E68C.png)
+![Ejemplo]({ACFF39A7-5FBE-431D-BAE7-99007C44E68C}.png)
 )
 ## 🛠️ Dependencias
 Java 8+
