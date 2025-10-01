@@ -20,7 +20,7 @@ Si no existe, muestra el error:
 yaml
 Copiar código
 Error: El archivo entrada.txt no existe.
-2. ✂️ filtraLineas
+### 2. ✂️ filtraLineas
 Lee líneas de texto desde la entrada estándar (stdin) y muestra únicamente aquellas que contengan más de 20 caracteres.
 
 Uso:
@@ -39,7 +39,7 @@ Solo imprime las líneas que tengan más de 20 caracteres.
 
 Útil para filtrar datos antes de pasarlos a otra aplicación.
 
-3. 🔢 contadorPalabras
+### 3. 🔢 contadorPalabras
 Cuenta el número total de palabras en la entrada estándar y muestra el resultado en la salida estándar.
 
 Uso:
@@ -61,7 +61,7 @@ Imprime el total de palabras leídas:
 yaml
 Copiar código
 Número total de palabras: 42
-⚙️ Construcción con Maven
+## ⚙️ Construcción con Maven
 Cada aplicación tiene su propio pom.xml configurado para generar un .jar independiente con su mainClass:
 
 lectorTexto → org.example.lectorTexto
@@ -78,7 +78,7 @@ Copiar código
 mvn clean package
 Esto generará un archivo .jar en la carpeta target/.
 
-🖥️ Ejemplo de uso combinado
+## 🖥️ Ejemplo de uso combinado
 Se pueden encadenar las aplicaciones usando tuberías (|), por ejemplo:
 
 bash
@@ -92,7 +92,7 @@ Filtra solo las líneas con más de 20 caracteres.
 
 Cuenta el total de palabras resultantes.
 
-📸 Capturas de ejemplo
+## 📸 Capturas de ejemplo
 lectorTexto
 yaml
 Copiar código
@@ -112,7 +112,7 @@ vbnet
 Copiar código
 Entrada: "Hola mundo desde Java"
 Salida: Número total de palabras: 4
-🛠️ Dependencias
+## 🛠️ Dependencias
 Java 8+
 
 Maven 3+
